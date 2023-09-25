@@ -1,0 +1,224 @@
+/* MY CSS */
+
+/* setting all font */
+/* selector tag body */
+body {
+  /* mengubah font menjadi Helvetica */
+  font-family: Helvetica;
+  /* font style normal */
+  font-style: normal;
+}
+/* End setting all font */
+
+/* Setting font p */
+/* selector tag p */
+p {
+  /* mengubah font weight / tebal text */
+  font-weight: 300;
+  /* mengubah ukuran font */
+  font-size: 14px;
+  /* mengatur line height / ukuran antar jarak paragraf */
+  line-height: 20px;
+}
+/* End setting font p */
+
+/* Setting font h3 */
+/* selector tag section yang di dalamnya ada tag h3 */
+section h3 {
+  /* mengubah font weight / tebal text */
+  font-weight: bold;
+  /* mengubah ukuran font */
+  font-size: 24px;
+  /* mengatur line height / ukuran antar jarak paragraf */
+  line-height: 36px;
+}
+/* End setting font h3 */
+
+/* Icon-check */
+/* selector class icon-check */
+.icon-check {
+  /* mengubah background color */
+  background-color: #cfd4ed;
+  /* menjadikan elmen pembungkun menjadi bulat */
+  border-radius: 50%;
+  /* mengubah warna icon */
+  color: #0d28a6;
+  /* memberi jarak */
+  padding: 3px;
+}
+/* End icon-check */
+
+/* btn-light-green */
+/* selector class btn-light-green */
+.btn-light-green {
+  /* mengubah warna button */
+  background-color: #5cb85f;
+  /* mengubah warna tulisan button */
+  color: #ffffff;
+  /* agar ujung button tidak lancip */
+  border-radius: 2px;
+}
+/* End btn light green */
+
+/* Navbar */
+/* selector class navbar */
+.navbar {
+  /* mengubah warna background */
+  background-color: #f1f3ff;
+}
+/* End navbar */
+
+/* JUMBOTRON */
+/* selector class jumbotron */
+.jumbotron {
+  /* mengubah warna background */
+  background-color: #f1f3ff;
+  /* menambahkan ukuran tinggi */
+  height: 400px;
+}
+/* End */
+
+/* selector class jumbotron tag h1 */
+.jumbotron h1 {
+  /* mengubah font weight / tebal text */
+  font-weight: bold;
+  /* mengubah ukuran font */
+  font-size: 36px;
+  /* mengatur line height / ukuran antar jarak paragraf */
+  line-height: 150%;
+}
+
+/* Desktop */
+/* Ukuran normal min-width: 768px */
+/* setting ketika ukuran layar minimal lebarnya 1285px maka css ini yang di jalankan */
+@media screen and (min-width: 1285px) {
+  /* selector class img-car */
+  .img-car {
+    /* menambah jarak dari kiri */
+    margin-left: 100px;
+    /* lebar 704 */
+    width: 704px;
+    /* tinggi 407 */
+    height: 407px;
+  }
+}
+/* End */
+
+/* Services */
+/* selector class service tag li */
+.services li {
+  /* mengubah font weight / tebal text */
+  font-weight: 300;
+  /* mengubah ukuran font */
+  font-size: 14px;
+  /* mengatur line height / ukuran antar jarak paragraf */
+  line-height: 20px;
+}
+/* End */
+
+/* Why US */
+/* setting ketika ukuran layar minimal lebarnya 768px maka css ini yang di jalankan */
+@media screen and (min-width: 767px) {
+  /* selector class card */
+  .card {
+    /* mengubah ukuran */
+    width: 18rem;
+  }
+}
+/* End */
+
+/* selector class why-us class card-body tag h5 */
+.why-us .card-body h5 {
+  /* mengubah font weight / tebal text */
+  font-weight: bold;
+  /* mengubah ukuran font */
+  font-size: 16px;
+  /* mengatur line height / ukuran antar jarak paragraf */
+  line-height: 24px;
+}
+/* End */
+
+/* Testi */
+/* Owl Carousel */
+/* selector class testi class item */
+.testi .item {
+  /* mengubah background color */
+  background-color: #f1f3ff;
+  /* memberi jarak padding untuk atas bawah 10px dan kiri kanan 30px */
+  padding: 50px 30px;
+  /* ujung agar tidak lancip */
+  border-radius: 8px;
+}
+/* End */
+
+/* selector class testi tag button */
+.testi button {
+  /* mengubah lebar */
+  width: 32px;
+  /* mengubah tinggi */
+  height: 32px;
+  /* memberi jarak */
+  padding: 5px;
+  /* membuat button menjadi bulat */
+  border-radius: 50%;
+  /* text agar di tengan */
+  text-align: center;
+  /* mengubah ukuran font */
+  font-size: 6px;
+}
+/* End */
+
+/* selector class testi tag button yang classnya btn-left */
+.testi button.btn-left {
+  /* mengubah warna background */
+  background-color: #ffffff;
+  /* memberi border / garis */
+  border: 1px solid #222222;
+}
+/* End */
+
+/* selector class testi class star */
+.testi .star {
+  /* mengubah ukuran font */
+  font-size: 30px;
+  /* mengubah warna */
+  color: #f9cc00;
+}
+/* End */
+
+/* Getting Started */
+/* selector class item-jumbo */
+.item-jumbo {
+  /* border radius 20px agar ujung tidak lancip */
+  border-radius: 20px;
+  /* mengubah warna background */
+  background-color: #0d28a6;
+  /* mengubah warna tulisan */
+  color: #ffffff;
+  /* ukuran tinggi */
+  height: 326px;
+}
+/* End */
+
+/* selector class getting-started tag h2 */
+.getting-started h2 {
+  /* mengubah font weight / tebal text */
+  font-weight: bold;
+  /* mengubah ukuran font */
+  font-size: 36px;
+  /* mengatur line height / ukuran antar jarak paragraf */
+  line-height: 150%;
+}
+/* End */
+
+/* FAQ */
+/* selector class faq class accordion tag button */
+.faq .accordion button {
+  /* mengubah font weight / tebal text */
+  font-weight: 300;
+  /* mengubah ukuran font */
+  font-size: 14px;
+  /* mengatur line height / ukuran antar jarak paragraf */
+  line-height: 20px;
+}
+/* End */
